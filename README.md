@@ -13,9 +13,9 @@ Bootcamp:  DU-VIRT-DATA-PT-06-2023
 
 For Project 3, we created a webpage that allows <a href="https://www.youtube.com/watch?v=YUUhDoCx8zc" target="_blank">Everyday People</a> to optimize their vacation searches. 
 
-This data was provided by <a href="https://ridb.recreation.gov/landing" target="_blank">Recreaction.gov</a>. The Recreation Information Database (RIDB) provides data resources to citizens, offering a single point of access to information about recreational opportunities nationwide. The RIDB represents an authoritative source of information and services for millions of visitors to federal lands, historic sites, museums, and other attractions/resources. This initiative integrates multiple Federal channels and sources about recreation opportunities into a one-stop, searchable database of recreational areas nationwide.
+This data was provided by <a href="https://ridb.recreation.gov/landing" target="_blank">Recreaction.gov</a>. The Recreation Information Database (<b>RIDB<b/>) provides data resources to citizens, offering a single point of access to information about recreational opportunities nationwide. The RIDB represents an authoritative source of information and services for millions of visitors to federal lands, historic sites, museums, and other attractions/resources. This initiative integrates multiple Federal channels and sources about recreation opportunities into a one-stop, searchable database of recreational areas nationwide.
 
-The languages utilizied in this project are Python(Jupyter Notebook), SQL, HTML, CSS, and Java Script.
+The languages utilizied in this project are <b>Python<b/>(Jupyter Notebook), <b>SQL<b/>, <b>HTML<b/>, <b>CSS<b/>, and <b>Java Script<b/>.
 
 ## Purpose
 
