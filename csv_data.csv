@@ -264,7 +264,7 @@ FacilityID,CampsiteType,TypeOfUse,Loop,CampsiteAccessible,CampsiteLongitude,Camp
 10119471,Shelter,Day,Beach,False,-89.906566,34.137622,2022-06-29
 10119477,Shelter,Day,Wallace Creek,False,-89.887317,34.164776,2021-03-25
 10119479,Shelter,Day,Water Valley Landing,False,-89.764494,34.141655,2021-03-25
-10119505,Hike,Overnight,Hōlua,False,-156.218381527,20.7397085150001,2022-04-27
+10119505,Hike,Overnight,H┼ìlua,False,-156.218381527,20.7397085150001,2022-04-27
 233350,Horseback,Overnight,Loop B,False,0.0,0.0,2021-03-27
 10120780,Shelter,Day,Clear Creek,False,-89.709808,34.427285,2021-10-05
 10120783,Shelter,Day,North Abutment,False,-89.778373,33.842874,2021-04-26
@@ -482,7 +482,6 @@ FacilityID,CampsiteType,TypeOfUse,Loop,CampsiteAccessible,CampsiteLongitude,Camp
 232435,Shelter,Day,Pavilion ,False,-83.4386623079999,35.4604880690001,2022-06-29
 234580,Cabin,Overnight,Scan & Pay,False,0.0,0.0,2023-07-13
 232436,Tent,Overnight,Group,False,-83.586296434,35.659981486,2022-06-29
-233349,RV,Overnight,Edna Creek Campground,False,0.0,0.0,2023-09-22
 272096,Tent,Overnight,NOTTINGHAM CAMPGROUND,True,0.0,0.0,2022-06-29
 272092,Tent,Overnight,Kinnikinnick (Laurance Lake) Campground,True,0.0,0.0,2022-06-29
 272093,Tent,Overnight,SHERWOOD CAMPGROUND,True,0.0,0.0,2022-06-29
@@ -756,7 +755,7 @@ FacilityID,CampsiteType,TypeOfUse,Loop,CampsiteAccessible,CampsiteLongitude,Camp
 233614,Shelter,Day,South Sandusky Beach,False,-88.988415,38.056102,2023-06-12
 234199,Shelter,Overnight,LOO1,False,-97.471806,31.227991,2022-06-29
 234084,Cabin,Overnight,SANDSTONE CABIN ,False,-107.171081,41.1103230000001,2023-02-18
-234317,Cabin,Overnight,PAGS,False,-109.916203,40.6663280000001,2022-06-29
+234317,Cabin,Overnight,PAGS,False,-109.916203,40.6663280000001,2023-09-29
 233203,Cabin,Overnight,SILVERTIP CABIN,False,-113.285978,47.925506,2020-10-15
 232638,Tent,Overnight,MCKA,False,-84.718439,34.190668,2022-06-29
 232609,RV,Overnight,HCRE,False,-87.97585,36.918269,2022-06-29
@@ -1439,7 +1438,7 @@ FacilityID,CampsiteType,TypeOfUse,Loop,CampsiteAccessible,CampsiteLongitude,Camp
 234075,Shelter,Day,Group Loop,True,-121.988894855156,45.3552246284173,2023-03-21
 233167,Cabin,Overnight,INDIAN CREEK GUARD STATION,False,-111.458294,39.1412740000001,2022-06-29
 233081,Cabin,Overnight,AREA MARTEN LAKE CABIN,False,-131.848611111,56.2791666667,2022-06-29
-234792,View,Overnight,Mestaa’ėhehe Mountain Fire LO,False,-105.493269,39.679659,2022-06-29
+234792,View,Overnight,MestaaÔÇÖ─ùhehe Mountain Fire LO,False,-105.493269,39.679659,2022-06-29
 233065,Cabin,Overnight,AREA SWEETWATER LAKE CABIN,False,-132.938611111,55.9522222222001,2022-06-29
 232980,Cabin,Overnight,AREA MCKINLEY LAKE CABIN,False,-145.192777778,60.4686111111001,2023-09-22
 232994,Cabin,Overnight,AREA HARRISON LAGOON CABIN,True,-148.198354535493,60.9844945790351,2022-06-29
