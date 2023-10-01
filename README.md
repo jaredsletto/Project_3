@@ -4,17 +4,15 @@ Bootcamp:  DU-VIRT-DATA-PT-06-2023
 4 October 2023  
 
 ## Table of Contents
-- [About](#about)
-- [Getting Started](#getting_started)
+- [Overview](#Overview)
+- [Purpose](#Purpose)
+- [Conclusion](#Conclusion)
 - [Contributing](#contributing)
   
 ## Overview
 
 
 ## Purpose
-
-
-## Research Questions
 
 
 ## Conclusion
