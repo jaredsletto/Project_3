@@ -1,11 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>Parks & Rec of America</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parks & Rec of America</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="css.css">
 </head>
+
 <body>
-    <h1>Campsites</h1>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 jumbotron text-center">
+            <h1>Campsite Information</h1>
+            <p>Learn about the different types of campsites throughout the United States!</p>
+          </div>
+        </div>
+    <div class="col-md-5">
+        <div id="bar"></div>
+        </div>
+        
     <!-- <div>THIS WILL BE OUR JAVASCRIPT</div> -->
-    <script src = 'bargraph.json'></script>
+    <div id="plot"></div>
+    <script src="data.js"></script>
+    <script src = 'bargraph.js'></script>
     <a href="map.html">Campsites in America</a>
+    
 </body>
-</html>  
+</html> 
