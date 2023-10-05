@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parks & Rec of America</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='map.css') }}">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    .video-container {
+        opacity: 1; 
+    }
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 jumbotron text-center">
+            <h1><span style='font-weight: bold;'>Ranger Rick's Guide Through Nature!</span></h1>
+          </div>
+        </div>
+    <div class="col-md-5 text-center">
+        <div id="bar"></div>
+        </div>
+        
+    <!-- <div>THIS WILL BE OUR JAVASCRIPT</div> -->
+<br/>
+    </div>
+    <div id="plot"></div>
+      <script src="data.js"></script>
+       <script src = 'bargraph.js'></script>
+       <p>In the United States, there are a number of different campsite options. Shelter campsites, a covered area for backpackers. Then follows tent sites, cabins, and RV sites.</p>
+       <br/>
+       <div class="video-container">
+        <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="360">
+          <source src="../static/video/Campsite-Info-Demo.mp4" type="video/mp4">
+          <!-- Add more video sources (WebM, Ogg, etc.) for compatibility -->
+        </video>
+      </div>
+   
+    <br/>
+    <br/>
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+            <h2>Click below to learn about the different types of campsites throughout the United States!</h2>
+          </div>
+        </div>
+    <li><span style='font-weight: bold;'><a href="{{ url_for('regions') }}">What Campsites Are Available In Your Region?</a></span></li>
+       <p><span style='font-weight: bold;'>The above link shows what is currently available in different regions throughout the united states.</span></p>
+    <li><span style='font-weight: bold;'><a href="{{ url_for('map') }}">Campsites in America</a></span></li>
+       <p><span style='font-weight: bold;'>There are a number of campsites in the United States that can cater to everyone's camping style. Click the link above to see an overview of all the different campsites throughout the United States.</span></p>
+
+    <script src="{{ url_for('static', filename='data.js') }}"></script>
+    <script src="{{ url_for('static', filename='bargraph.js') }}"></script>
+    <script src="{{url_for('static', filename='map.js')}}"></script>
+    <script src="{{url_for('static', filename='ne_js.js')}}"></script>
+    <script src="{{url_for('static', filename='nw_js.js')}}"></script>
+    <script src="{{url_for('static', filename='se_js.js')}}"></script>
+    <script src="{{url_for('static', filename='sw_js.js')}}"></script>
+
+
+</body>
+</html> 
