@@ -19,9 +19,11 @@ The languages utilizied in this project are <b>Python</b>(Jupyter Notebook), <b>
 
 ## Purpose
 
+The purpose of this project is to identify where campsites are located in the United States, identifying what the different campsites are and how many there are of each, and seeing which campsites are available by region. 
 
 ## Conclusion
- 
+
+ After further analysis, Shelter campsites have the highest volume through the United States. Next is campsites that is tents only, cabins and RVs accessible. 
 
 ## Contributing
 - <a href="https://www.github.com/lydiab72/" target="_blank">Lydia Bartlet</a>
