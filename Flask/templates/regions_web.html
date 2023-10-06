@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Regional Campsites</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='map.css') }}">
+    <style>
+        body {
+            opacity: 0.7;
+            background-image: url("{{ url_for('static', filename='images/rockymt.jpg') }}");
+            background-size: cover;
+            background-repeat: repeat-y;
+        }
+    </style>
+</head>
+<body>
+    <a href="/">Home</a>
+    <a href="/map">Map</a>
+    <div id="region_plot"></div>
+    <script src="{{url_for('static', filename='nw_json.js')}}"></script>
+    <script src="{{url_for('static', filename='ne_json.js')}}"></script>
+    <script src="{{url_for('static', filename='sw_json.js')}}"></script>
+    <script src="{{url_for('static', filename='se_json.js')}}"></script>
+    <script src="{{url_for('static', filename='regions_js.js')}}"></script>
+    <script src="{{url_for('static', filename='css.css')}}"></script>
+</body>
+</html>

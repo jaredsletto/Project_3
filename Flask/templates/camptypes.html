@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Parks & Rec of America</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <!-- <div>THIS WILL BE OUR JAVASCRIPT</div> -->
+    <div id="plot"></div>
+    <script src="data.js"></script>
+    <script src = 'bargraph.js'></script>
+    <script src="{{url_for('static', filename='data.js')}}"></script>
+    <script src="{{url_for('static', filename='bargraph.js')}}"></script>
+    <script src="{{url_for('static', filename='map.js')}}"></script>
+    <script src="{{url_for('static', filename='ne_js.js')}}"></script>
+    <script src="{{url_for('static', filename='nw_js.js')}}"></script>
+    <script src="{{url_for('static', filename='se_js.js')}}"></script>
+    <script src="{{url_for('static', filename='sw_js.js')}}"></script>
+    <script src="{{url_for('static', filename='css.css')}}"></script>
+    <script src="{{url_for('static', filename='map.css')}}"></script>
+</body>
+</html>
