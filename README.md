@@ -26,7 +26,7 @@ The purpose of this project is to identify where campsites are located in the Un
 After further analysis, Shelter campsites have the highest volume through the United States. Next is campsites that is tents only, cabins and RVs accessible. When looking at each regoin, the Southeast region of the United States has the most options available, while the Southwest does not. If we were able to use the full dataset, I believe we would be able to get a better account of volume of campsites and where georgraphically each campsite is located to get a better visualization. We also had to group campsites based on interpertation of title. The RIDB wesbite did not provide definiions of their data. If being able to accurately group each campsite type, then we would be able to better identify the volume.
 
 ## Contributing
-- <a href="https://www.github.com/lydiab72/" target="_blank">Lydia Bartlet</a>
+- <a href="https://www.github.com/lydiab72/" target="_blank">Lydia Bartnick</a>
 - <a href="https://www.github.com/acollawn/" target="_blank">Anna Collawn</a>
 - <a href="https://www.github.com/That1Guy94/" target="_blank">Gil Fernandez</a>
 - <a href="https://www.github.com/jaredsletto/" target="_blank">Jared Sletto</a>  
